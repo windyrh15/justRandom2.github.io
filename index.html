@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        /* CSS CLEAR */
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        /* NavBar */
+        nav{
+            height: 80px;
+            background: linear-gradient(to top right,rgb(26, 185, 156),rgb(150, 255, 236));
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0rem calc((100vw - 1300px) / 2);
+        }
+
+        .logo{
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            font-style: italic;
+            padding: 0 2rem;
+        }
+
+        nav a{
+            text-decoration: none;
+            color: white;
+            padding: 0 1.5rem;
+        }
+
+        /* Section Content */
+        .hero{
+            background: linear-gradient(to top right,rgb(26, 185, 156),rgb(150, 255, 236));
+        }
+
+        .hero-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 95vh;
+            padding: 0rem calc((100vw - 1300px) / 2);
+        }
+
+        .column-left{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            color: white;
+            padding: 0rem 2rem;
+        }
+
+        .column-left h1{
+            margin-bottom: 1rem;
+            font-size: 3rem;
+        }
+
+        .column-left p{
+            margin-bottom: 2rem;
+            line-height: 1.8rem;
+            font-size: 1.5rem;
+        }
+
+        .column-left button{
+            align-self: center;
+            width: 60%;
+            padding: 1rem 3rem;
+            font-size: 1rem;
+            border: none;
+            background-color: white;
+            border-radius: 2.5rem;
+            color: rgb(31, 224, 189);
+        }
+
+        .column-left button:hover{
+            background-color: rgb(24, 147, 125);
+            color: white;
+        }
+
+
+
+        .column-right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0rem 2rem;
+        }
+
+        .column-right img{
+            width: 600px;
+            height: 500px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Puchoo</div>
+        <div class="nav-items">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="hero-container">
+            <div class="column-left">
+                <h1>Puchoo Helper Messages</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, accusamus. Kumalamala sviesta este dorlobo. frkebubs ucepepe satifha damatre kuchev milmiskin.</p>
+                <button>Get Start</button>
+            </div>
+            <div class="column-right">
+                <img src="a2-fotor-bg-remover-20240125234045.png" alt="officeVector" class="hero-image">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
